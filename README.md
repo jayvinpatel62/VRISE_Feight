@@ -1,2 +1,1 @@
-# VRISE_Feight
-react web developement
+# VRISE-FIEGHT-WEB
