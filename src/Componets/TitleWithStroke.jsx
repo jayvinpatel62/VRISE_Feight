@@ -7,7 +7,7 @@ const TitleWithStroke = ({ backText, category, title, color = 'dark', align = 'c
       <h4 className={classNames('font-bold text-xl', `theme-${color}`, 'uppercase', 'category')}>
         {category}
       </h4>
-      <h2 className={classNames('font-bold text-5xl', `theme-${color}`)}>
+      <h2 className={classNames('font-bold text-2xl lg:text-5xl', `theme-${color}`)}>
         {title}
       </h2>
       <div className={classNames('backTextStroke font-bold', `theme-${color}`, `mt-${offset}`)}>

@@ -25,20 +25,20 @@ const TransportService = () => {
             img={icn1} 
             title="Truck Freight" 
             num='01'
-            desc="Goblin shark zingel, bleak Quillfish kingfish dorado molly labyrinth fish yellowtail horse." 
+            desc="Facing driver shortages and increased demand, leading to delays." 
             />
             <ServiceCard 
             img={icn2} 
             title="Ship Freight" 
             num='02'
-            desc="Black triggerfish, armored searobin deepwater cardinalfish tiger barb brown." 
+            desc="Port congestion and container shortages are major issues." 
             />
 
             <ServiceCard 
             img={icn3} 
             title="Air Freight" 
             num='03'
-            desc="Longfin escolar tiger shovelnose catfish half-gill clown triggerfish trench Moorish idol thresher." 
+            desc="Limited capacity and high costs due to reduced passenger flights." 
             />
             
           </div>

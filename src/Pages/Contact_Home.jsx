@@ -16,7 +16,7 @@ const Contact_Home = () => {
                             <form action="" className='border p-10 border-dark-light'>
                                 <div className='grid gap-5 pb-8'>
                                     <p className=' pb-[20px] font-bold '>Personal data</p>
-                                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+                                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
                                         <input type="text" placeholder='Full Name' className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='Subject' className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="email" placeholder='Email' className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
@@ -25,19 +25,19 @@ const Contact_Home = () => {
                                 </div>
                                 <div className='grid gap-5 pb-8'>
                                     <p className='font-bold '>Shipment data</p>
-                                    <div className='grid grid-cols-1 lg:grid-cols-2 gap-5'>
+                                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-5'>
                                         <input type="text" placeholder='Delivery City'  className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='City of departure' className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="" placeholder='Freight type'  className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='Incoterms' className=' py-3 px-3 border border-dark-light' />
                                     </div>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
                                         <input type="text" placeholder='Weight'   className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='Height'  className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='Weight'  className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                         <input type="text" placeholder='Height'  className='py-3 px-4 border border-dark-light placeholder-dark-light text-sm' />
                                     </div>
-                                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                                    <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
                                         <div><input type="checkbox" name="" id="check1" className='me-2' /><label htmlFor="check1" className='text-dark-light text-sm'>Fragile</label></div>
                                         <div><input type="checkbox" name="" id="check2" className='me-2' /><label htmlFor="check2" className='text-dark-light text-sm'>Express</label></div>
                                         <div><input type="checkbox" name="" id="check3" className='me-2' /><label htmlFor="check3" className='text-dark-light text-sm'>Insurance</label></div>
@@ -51,9 +51,10 @@ const Contact_Home = () => {
                             </form>
                         </div>
                         <div className="text-white">
-                            <p className='uppercase font-bold text-[12px]'>Calculator</p>
-                            <h1 className=' text-[45px] font-bold py-[10px] leading-10'>You can know the Price for your Transportation in Advance </h1>
-                            <p className=' text-[16px] py-[10px]'>Brook trout powen harelip sucker gibberfish beluga sturgeon coelacanth tidewater goby elephant fish yellowtail slender snipe eel rasboraRainbowfish powen paddlefish brotula Arctic char zebra bullhead shark. Yellowhead jawfish gianttail temperate ocean-bass Atlantic eel river stingray skilfish.</p>
+                            {/* <p className='uppercase font-bold text-[12px]'>Calculator</p> */}
+                            <h1 className=' text-[45px] font-bold py-[10px] leading-10'>Estimate your transportation costs in advance with our easy-to-use freight cost calculator.  </h1>
+                            <p className=' text-[16px] py-[10px]'>Get a clear understanding of the expenses for your shipment, tailored to meet the specific requirements of your goods.</p>
+                            <p className=' text-[16px] py-[10px]'>Whether you're shipping locally or internationally, our calculator simplifies the process, providing you with a quick and accurate quote. Start planning your freight journey with confidence and efficiency today.</p>
                             <div className='gap-10 py-[30px] flex'>
                                 <div className=''>
                                     <div class="icon">

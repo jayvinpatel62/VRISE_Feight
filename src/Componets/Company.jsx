@@ -19,18 +19,18 @@ const Company = () => {
                         Partners
                         </div>
                     </div>
-                    <div className=' flex w-full gap-10 pt-[50px]'>
-                        <div className='border py-7 px-10'>
-                            <img src={require("../image/asset 19.png")} alt="" />
+                    <div className=' flex flex-wrap w-full gap-10 pt-[50px] justify-center'>
+                        <div className='border py-7 px-10 flex items-center'>
+                            <img src={require("../image/asset 19.png")} alt="" className='max-w-[120px]'/>
                         </div>
-                        <div  className='border py-5 px-10'>
-                            <img src={require("../image/asset 22.png")} alt="" />
+                        <div  className='border py-5 px-10 flex items-center'>
+                            <img src={require("../image/asset 22.png")} alt="" className='max-w-[120px]' />
                         </div>
-                        <div  className='border py-5 px-10'>
-                            <img src={require("../image/asset 21.png")} alt="" />
+                        <div  className='border py-5 px-10 flex items-center'>
+                            <img src={require("../image/asset 21.png")} alt="" className='max-w-[120px]' />
                         </div>
-                        <div  className='border py-5 px-10'>
-                            <img src={require("../image/asset 20.png")} alt="" />
+                        <div  className='border py-5 px-10 flex items-center'>
+                            <img src={require("../image/asset 20.png")} alt="" className='max-w-[120px]' />
                         </div>
                     </div>
                     </div>

@@ -39,7 +39,7 @@ const Testimonials = () => {
                                 >
                                 <SwiperSlide>
                                     <div className='testimonial-item'>
-                                        <div className='text-center text-white px-[100px] py-10'>
+                                        <div className='text-center text-white px-5 px-5 md:px-[100px] py-10'>
                                             <p>Dogteeth tetra; sea catfish jack, golden trout. Marblefish spotted dogfish, mako shark anglerfish, "sharksucker swordtail northern pike." Shell-ear mud minnow Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala shark crocodile shark bleak Asian carps trout cod. Chubsucker lighthousefish prickly shark mackerel shark golden loach plunderfish; stingfish midshipman golden loach dragon goby sculpin. California halibutscup. w Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala sh</p>
                                         </div>
                                         <div className='author_container'>
@@ -52,7 +52,7 @@ const Testimonials = () => {
                                 </SwiperSlide>
                                 <SwiperSlide>
                                     <div className='testimonial-item'>
-                                            <div className='text-center text-white px-[100px] py-10'>
+                                            <div className='text-center text-white px-5 md:px-[100px] py-10'>
                                                 <p>Dogteeth tetra; sea catfish jack, golden trout. Marblefish spotted dogfish, mako shark anglerfish, "sharksucker swordtail northern pike." Shell-ear mud minnow Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala shark crocodile shark bleak Asian carps trout cod. Chubsucker lighthousefish prickly shark mackerel shark golden loach plunderfish; stingfish midshipman golden loach dragon goby sculpin. California halibutscup. w Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala sh</p>
                                             </div>
                                             <div className='author_container'>
@@ -65,7 +65,7 @@ const Testimonials = () => {
                                 </SwiperSlide>
                                 <SwiperSlide >
                                     <div className='testimonial-item'>
-                                        <div className='text-center text-white px-[100px] py-10'>
+                                        <div className='text-center text-white px-5 md:px-[100px] py-10'>
                                             <p>Dogteeth tetra; sea catfish jack, golden trout. Marblefish spotted dogfish, mako shark anglerfish, "sharksucker swordtail northern pike." Shell-ear mud minnow Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala shark crocodile shark bleak Asian carps trout cod. Chubsucker lighthousefish prickly shark mackerel shark golden loach plunderfish; stingfish midshipman golden loach dragon goby sculpin. California halibutscup. w Blobfish, candlefish; plownose chimaera bala shark southern sandfish lungfish longfin smelt. limbing perch sea bream bleak seascolar Cherubfish pleco jewelfish threadfin, bala sh</p>
                                         </div>
                                         <div className='author_container'>

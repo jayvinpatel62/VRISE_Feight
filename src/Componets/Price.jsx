@@ -12,8 +12,9 @@ const Price = () => {
                     <div>
                         <div className=' grid grid-cols-1 lg:grid-cols-3 gap-10 py-[100px]'>
                             <div className="">
-                                <TitleWithStroke backText="Price" category="Pricing" title="The right price for you " align='left'/>
-                                <p>Pacific hake false trevally queen Black prickleback humuhumunukunukuapua’a mosshead warbonnet sweeper! Owens pupfish large-eye</p>
+                                <TitleWithStroke backText="Price" category="Pricing" title="Fair Pricing Tailored to Your Needs
+" align='left'/>
+                                <p>Experience competitive and transparent pricing with our freight services. Whether you are shipping domestically or internationally, we offer rates that match the value and efficiency of our logistics solutions. Enjoy straightforward pricing without any hidden costs, tailored to fit the unique requirements of your cargo and shipping preferences. Plan your budget with confidence and benefit from our commitment to affordability and quality service.</p>
                             </div>
                             <div className='bg bg-white '>
                                 <h1 className=' text-[25px] font-bold'>Regular <span className=' text-[#4EAE98]'>Pack</span></h1>

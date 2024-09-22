@@ -12,7 +12,7 @@ const Blog_Item = ({  img, category, date, creator, title, desc }) => {
             <div className='category absolute bottom-0 left-6 p-2 px-10 bg-primary text-white '>
                 <a href=''>{category}</a>
             </div>
-            <img className='bg-cover w-full h-full' src={img} />
+            <img className='object-cover w-full h-full' src={img} />
         </div>
         <div className="content bg-[#fff] py-[20px] px-[30px]">
             <span className=' text-[15px] text-[#2B5BAC] '>{date} / by {creator}</span>

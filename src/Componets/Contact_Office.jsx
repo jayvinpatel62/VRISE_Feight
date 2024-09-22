@@ -18,46 +18,46 @@ const Contact_Office = () => {
                                     </div>
                                 </div>
                                
-                                <p className=' text-[#fff] py-[20px]'>Bramble shark slickhead archerfish Black angelfish marblefish bigeye walleye fire bar danio silver driftfish pelagic cod. Wolf-herring spaghetti eel, ocean sunfish, sergeant major codling naked-back knifefish peamouth snubnose parasitic.</p>
+                                <p className=' text-[#fff] py-[20px]'>If you have any questions about our services or need assistance with your freight needs, please don't hesitate to contact us. Our team is ready to provide you with all the information and support you require. Whether you're inquiring about specific details of our logistics solutions or seeking guidance on the best options for your shipment, we are here to help.</p>
                                 <div className=''>
                                     <button className='uppercase py-[14px] px-[40px] mt-[40px] leading-[24px]  rounded-br-2xl border-2 hover:bg-[#fff] text-sm bg-transparent border-[#fff] hover:text-[#414A53] transition-all text-white '>get startred</button>
                                 </div>
                             </div>
                             <div className=''>
-                                <div className='w-full footer_bg bg-[#2B5BAC] text-white py-[30px] px-[30px]'>
-                                    <h4 className=' font-bold pb-3 text-xl'>USA office</h4>
-                                    <div className='flex gap-2'>
-                                        <p className=' font-bold'>Location:</p>
-                                        <span>av. Washington 165, NY CA 54003</span>
+                                <div className='flex flex-col gap-2 w-full footer_bg bg-[#2B5BAC] text-white py-[30px] px-[30px]'>
+                                    <h4 className=' font-bold pb-3 text-xl'>Dubai office</h4>
+                                    <div className='flex flex-wrap gap-2'>
+                                        <p className='font-bold'>Location:</p>
+                                        <span>Warehouse No E17 - Dubai Airport Free Zone - Dubai</span>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className=' font-bold'>Phone:</p>
-                                        <span>+31 85 964 47 25 +31 65 792 63 11</span>
+                                        <span>+971 50 582 0577</span>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className=' font-bold'>Email:</p>
-                                        <span>info@transporteriumusa.com</span>
+                                        <a href='mailto:admin@vrisefreight.com'>admin@vrisefreight.com</a>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className='font-bold'>Opening hours:</p>
                                         <span>9:00 AM - 5:00 PM</span>
                                     </div>
                                 </div>
-                                <div className='footer_bg mt-[20px] bg-[#2B5BAC] text-white  py-[30px] px-[30px]'>
+                                <div className='footer_bg flex flex-col gap-2 mt-[20px] bg-[#2B5BAC] text-white  py-[30px] px-[30px]'>
                                     <h4 className=' font-bold pb-3 text-xl'>Germany office</h4>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className=' font-bold'>Location:</p>
                                         <span>Anhalter Strasse 3641 Standenbühl</span>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className=' font-bold'>Phone:</p>
                                         <span>+433267 57 506 +423454 22 639</span>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className=' font-bold'>Email:</p>
                                         <span> info@transporteriumde.com</span>
                                     </div>
-                                    <div className=' flex gap-2'>
+                                    <div className='flex flex-wrap gap-2'>
                                         <p className='font-bold'>Opening hours:</p>
                                         <span>9:00 AM - 5:00 PM</span>
                                     </div>

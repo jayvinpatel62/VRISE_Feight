@@ -38,7 +38,21 @@ const Steps = () => {
                                 Autoplay,
                                 Scrollbar,
                             ]}
-                            slidesPerView={3}
+                            slidesPerView={1}
+                            breakpoints={{
+                                320: {
+                                    width: 320,
+                                    slidesPerView: 1,
+                                  },
+                                640: {
+                                    width: 640,
+                                    slidesPerView: 2,
+                                  },
+                                992: {
+                                width: 992,
+                                slidesPerView: 3,
+                                }
+                              }}
                             >
                                  <SwiperSlide>
                                     <StepsCard 

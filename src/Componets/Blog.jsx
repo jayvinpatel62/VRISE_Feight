@@ -41,13 +41,27 @@ const Blog = () => {
                                         delay: 1500,
                                     }}
                                 
-                                    slidesPerView={2}
+                                    
                                     spaceBetween={30}
                                     scrollbar={{ draggable: true }}
                                     modules={[
                                         Autoplay,
                                         Scrollbar,
                                     ]}
+                                    slidesPerView={2}
+                                    breakpoints={{
+                                        // when window width is >= 640px
+                                    
+                                        320: {
+                                            width: 320,
+                                            slidesPerView: 1,
+                                        },
+                                        // when window width is >= 768px
+                                        768: {
+                                        width: 768,
+                                        slidesPerView: 2,
+                                        }
+                                    }}
                                     >
                                         <SwiperSlide>
                                             <Blog_Item

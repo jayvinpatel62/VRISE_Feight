@@ -17,8 +17,8 @@ import {
 } from "swiper/modules";
 
 import Slide_1 from "../image/slider/slide_1.jpg";
-import Slide_2 from "../image/slider/slide_2.jpg";
-import Slide_3 from "../image/slider/slide_3.jpg";
+import Slide_2 from "../image/slider/slide_3.jpg";
+import Slide_3 from "../image/slider/slide_2.jpg";
 import Slider_Content from "./Slider_Content";
 
 const MainSilder = () => {
@@ -27,10 +27,10 @@ const MainSilder = () => {
       <div className="main-slider">
         <Swiper
           className="animeslide"
-          effect={"fade"}
+          effect={"slide"}
           navigation={true}
           autoplay={{
-            delay: 1500,
+            delay: 4000,
             disableOnInteraction: false,
           }}
           pagination={{
@@ -53,24 +53,24 @@ const MainSilder = () => {
           ]}
           slidesPerView={1}
         >
-          <SwiperSlide className="animeslide-slide bg-no-repeat bg-cover" style={{background: `url(${Slide_1})`}} >
+          <SwiperSlide className="animeslide-slide slider-slide" style={{background: `url(${Slide_1})`}} >
               <Slider_Content
-                title="Transportation Services around the World "
-                desc="Rockling Devario deep sea bonefish cutthroat trout streamer fish kaluga sailback scorpionfish sand dab, turkeyfish golden loach sand diver. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish luderick blackchin kingfish."
+                title="Road Transport That Delivers Reliability"
+                desc="Explore bespoke truck freight solutions with VRISE FREIGHT FZCO. From Dubai to the broader Middle East, we ensure your cargo reaches its destination safely and on time."
                 btnNname="Explore More"
               />
           </SwiperSlide>
-          <SwiperSlide className="animeslide-slide bg-no-repeat bg-cover" style={{background: `url(${Slide_2})`}}>
+          <SwiperSlide className="animeslide-slide slider-slide" style={{background: `url(${Slide_2})`}}>
               <Slider_Content
-                title="Deliver Packages in any Way"
-                desc="Rockling Devario deep sea bonefish cutthroat trout streamer fish kaluga sailback scorpionfish sand dab, turkeyfish golden loach sand diver. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish luderick blackchin kingfish."
+                title="Navigating Global Waters with Ease"
+                desc="Connect your goods to the world with our comprehensive ship freight services. Experience seamless sea transport, backed by expert handling and strategic global alliances."
                 btnNname="Explore More"
               />
           </SwiperSlide>
-          <SwiperSlide className="animeslide-slide bg-no-repeat bg-cover" style={{background: `url(${Slide_3})`}}>
+          <SwiperSlide className="animeslide-slide slider-slide" style={{background: `url(${Slide_3})`}}>
               <Slider_Content
-                title="Worldwide Shipping"
-                desc="Roach yellowfin cutthroat trout zebra pleco ocean sunfish temperate bass pikehead elephant fish. Long-finned char northern pike bluegill temperate. Leopard danio píntano bonnetmouth; blue whiting, suckermouth armored catfish luderick blackchin kingfish."
+                title="Fly Higher with Speedy Air Freight"
+                desc="Urgent delivery needs? Our air freight services combine speed, efficiency, and security, transporting your shipments globally with care and precision."
                 btnNname="Explore More"
               />
           </SwiperSlide>
